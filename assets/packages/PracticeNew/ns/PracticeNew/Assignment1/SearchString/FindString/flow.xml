@@ -143,7 +143,7 @@
 
   <!-- nodes -->
 
-<MAPINVOKE SERVICE="Practice.Assignment1.SearchString:Stringtokenize" VALIDATE-IN="$none" VALIDATE-OUT="$none" INVOKE-ORDER="0">
+<MAPINVOKE SERVICE="PracticeNew.Assignment1.SearchString:Stringtokenize" VALIDATE-IN="$none" VALIDATE-OUT="$none" INVOKE-ORDER="0">
 
   <!-- nodes -->
 
@@ -335,7 +335,7 @@
 
   <!-- nodes -->
 
-<MAPINVOKE SERVICE="Practice.Assignment1.SearchString:CompareString" VALIDATE-IN="$none" VALIDATE-OUT="$none" INVOKE-ORDER="0">
+<MAPINVOKE SERVICE="PracticeNew.Assignment1.SearchString:CompareString" VALIDATE-IN="$none" VALIDATE-OUT="$none" INVOKE-ORDER="0">
 
   <!-- nodes -->
 
@@ -343,10 +343,10 @@
 
   <!-- nodes -->
 
-<MAPCOPY FROM="/StringList;1;0" TO="/InputWord;2;0/word1;1;0">
+<MAPCOPY FROM="/StringList;1;0" TO="/InputWord;2;0/word2;1;0">
 </MAPCOPY>
 
-<MAPCOPY FROM="/InputDoc;2;0/InputWord;1;0" TO="/InputWord;2;0/word2;1;0">
+<MAPCOPY FROM="/InputDoc;2;0/InputWord;1;0" TO="/InputWord;2;0/word1;1;0">
 </MAPCOPY>
 </MAP>
 
